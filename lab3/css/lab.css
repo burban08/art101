@@ -1,9 +1,17 @@
-/* Here we can set styles for this lab page that we don't want to effect others pages */
+/* Here we can set styles for this lab page that we don't want to effect others pages /
 
-/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+/ the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 .minor-section {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
-  }
+  background: #0C2A51;
+  background: -moz-radial-gradient(center, #0C2A51 0%, #275098 50%, #2CB6F1 100%);
+  background: -webkit-radial-gradient(center, #0C2A51 0%, #275098 50%, #2CB6F1 100%);
+  background: radial-gradient(ellipse at center, #0C2A51 0%, #275098 50%, #2CB6F1 100%);
+}
+
+#my-portrait{
+  width: 500px;
+}
+
+#file-structure{
+  width: 500px;
+}
