@@ -14,8 +14,8 @@ myTransport = ["bus", "car"];
     age: function(){
       return 2023 - this.year;
   }
-}
-// output  myTransport
+};
+// output myTransport
 document.writeln("Kinds of transportation I use: ", myTransport, "</br>");
 //output myMainRide
 document.writeln("My main ride: <pre>", 
