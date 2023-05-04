@@ -4,9 +4,10 @@
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 10px #633589;
-    background-color: #355189;
+    border: solid 10px #357a89;
+    background-color: #cad5eb;
     color: black;
+    font-family: fantasy;
   }
 
 body{

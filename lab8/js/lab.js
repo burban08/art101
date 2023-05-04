@@ -1,21 +1,18 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// index.js - creating anonymous functions
+// Author: Bianca and Kira
+// Date: May 4, 2023
 
 // Constants
 
 // Functions
 
-// this is an example function and this comment tells what it doees and what parameters are passed to it.
-function myFunction(param1, param2) {
-  // some code here
-  // return results;
+var array = [3,6,8,41,9001]
+
+function add(num) {
+  return num - 1;
 }
 
-function main() {
-  console.log("Main function started.");
-  // the code that makes everything happen
-}
-
-// let's get this party started
-main();
+console.log(array.map(add));
+console.log(array.map(function(num) {
+  return num + 1;
+}));
