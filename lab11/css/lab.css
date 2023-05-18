@@ -1,0 +1,41 @@
+/* Here we can set styles for this lab page that we don't want to effect others pages */
+
+/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+.minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 10px #357a89;
+    background-color: #cad5eb;
+    color: rgb(14, 73, 104);
+    font-family:'Courier New', Courier, monospace;
+  }
+
+body{
+  background-color: black;
+}
+
+.plum {
+  color: plum;
+}
+
+.goldenrod {
+  color: goldenrod;
+}
+
+#Challenge {
+  font-weight: bold;
+  font-size: medium;
+  font-family: "Comic Sans Ms";
+}
+
+#Problems {
+  font-weight: bold;
+  font-size: medium;
+  font-family: "Comic Sans Ms";
+}
+
+#Reflection {
+  font-weight: bold;
+  font-size: medium;
+  font-family: "Comic Sans Ms";
+}
