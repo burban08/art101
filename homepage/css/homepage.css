@@ -1,0 +1,16 @@
+/* this css file will only style the homepage of our site */
+
+.me-photo {
+  margin: 10px;
+  max-width: 500px;
+  opacity: 0.7;
+  grid-column: 2/3;
+}
+
+.uyuni-bolivia {
+  background: url(uyuni-bolivia.jpg) no-repeat center fixed; 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}

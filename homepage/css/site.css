@@ -3,34 +3,59 @@
 /* you can pick your own background colors, text colors, and fonts */
 
 /* we can select an html element tag, in this case "body" will apply to the whole document */
-body {
-  background-color: #50808E;
-}
 
 /* we can have rules apply to multiple elements at the same time with commas */
 h1,h2,h3 {
-  font-family: sans-serif;
+  font-family: "Comic Sans MS";
 }
 
 /* and we can have rules that overlap other rules, both take effect */
 h1 {
   letter-spacing: 5px;
   word-spacing: 5px;
-  font-size: 200%;
+  font-size: 400%;
+}
+.rainbow {
+  -webkit-animation: rainbow 5s infinite;
+}
+@-webkit-keyframes rainbow{
+  0% {color: red;}
+  16% {color: orange;}
+  33% {color: yellow;}
+  50% {color: green;}
+  66% {color: blue;}
+  83% {color: indigo;}
+  100% {color: violet;}
+}
+
+.rainbow-two {
+  -webkit-animation: rainbowtwo 5s infinite;
+}
+@-webkit-keyframes rainbowtwo{
+  0% {color: blue;}
+  16% {color: indigo;}
+  33% {color: violet;}
+  50% {color: red;}
+  66% {color: orange;}
+  83% {color: yellow;}
+  100% {color: green;}
 }
 
 /* the hashtag in a CSS selector selects an element by id, e.g., id="content" */
 #content {
   margin: 10px;
   padding: 10px;
-  border: solid 1px #888;
-  background-color: #84B59F;
+  font-family: "Comic Sans MS";
+  font-size: larger;
+  text-shadow: 3px 3px 10px white;
 }
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 .minor-section {
   padding: 10px;
   margin-bottom: 10px;
-  border: solid 3px yellow;
-  background-color: blackS;
+}
+
+.section {
+  color: whitesmoke;
 }
