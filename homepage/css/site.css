@@ -14,6 +14,7 @@ h1 {
   letter-spacing: 5px;
   word-spacing: 5px;
   font-size: 400%;
+  text-align: center;
 }
 .rainbow {
   -webkit-animation: rainbow 5s infinite;
@@ -48,12 +49,14 @@ h1 {
   font-family: "Comic Sans MS";
   font-size: larger;
   text-shadow: 3px 3px 10px white;
+  text-align: center;
 }
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 .minor-section {
   padding: 10px;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 .section {
