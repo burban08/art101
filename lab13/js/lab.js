@@ -28,6 +28,7 @@ function fizzbuzz (i){
             oneLongString += i + " Boom<br>";
             console.log("Boom");
         } else {
+            oneLongString += i + "<br>";
             console.log(i);
         }   
     }   
