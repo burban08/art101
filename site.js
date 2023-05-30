@@ -1,6 +1,6 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// index.js - debugging and building
+// Author: Bianca and Kira
+// Date: May 25, 2023
 
 // Constants
 
