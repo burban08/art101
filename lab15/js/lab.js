@@ -3,21 +3,21 @@
 // Date: May 31, 2023
 
 function getData(){
-    console.log("Hit me!");
+    console.log("clicked");
+    // Using the core $.ajax() method
     $.ajax({
-        url: "https://yesno.wtf//api",
-        data: {},
-        type: "GET", 
-        answer: "yes",
-        forced: "false",     
+            url: "https://yesno.wtf/api",
+            type: "GET",
+            data: {},
+            //dataType: "json",
     })
-    .done(function(data){
-        //console.log(data)
-        console.log(data);
-        var answer = data.answer;
-        var imgURL = data.image;
-        $("output").html("<h>" + answer);
-        $("output").append("<img src=" + imgURL + ">");
+    .done(function(data) {
+        //var out = $("#output");
+        console.log(data.answer);
+        console.log(data.image);
+        $("#output").append('<img id="theImg" src= ' + data.image + '>');
+        //out.html(data.answer);
+        // do stuff
     })
 }
 
