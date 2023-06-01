@@ -23,4 +23,5 @@ $("#links").append('<ul>\
 <li><a href="/art101/lab12/index.html">Lab 12: Conditionals</a></li>\
 <li><a href="/art101/lab13/index.html">Lab 13: Loops</a></li>\
 <li><a href="/art101/lab14/index.html">Lab 14: Debugging Tools and Strategies</a></li>\
+<li><a href="/art101/lab15/index.html">Lab 15: AJAX</a></li>\
 </ul>');
